@@ -1,0 +1,70 @@
+
+@font-face {
+    font-family: creato;
+    src: url(CreatoDisplay-Light.otf);
+}
+@font-face{
+    font-family: palette;
+    src:url(Palette\ Regular.ttf);
+}
+@font-face {
+    font-family:akira;
+    src: url(Akira\ Expanded\ Demo.otf);
+}
+@font-face {
+    font-family: renatha;
+    src: url(RenathaSignature.otf);
+}
+nav{
+    margin-left: 5%;
+    margin-right: 2%;
+    margin-top:1%;
+    font-family: akira;
+    font-size: 90%;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient(rgb(233, 233, 233),rgb(100, 59, 81));
+    color: rgb(233, 233, 233);
+}
+
+p{
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    font-family: creato;
+    font-size: 120%;
+}
+
+h5{
+    font-weight: lighter;
+    font-size: 120%;
+    color: rgb(100, 59, 81);
+}
+h6{
+    margin-left: 10%;
+    font-size: 250%;
+}
+@media(max-width:600px){
+    body{
+        margin-left: 4%;
+    }
+    nav{
+        font-size: 100%;
+    }
+    h3{
+        font-size: 300%;
+    }
+    p{
+        font-size: 100%;
+        margin-right: 6%;
+    }
+    img{
+        width: 8%;
+    }
+    button a{
+        width: 90%;
+    }
+}
